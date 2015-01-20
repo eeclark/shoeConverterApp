@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         mensConvertedShoeSizeLabel.hidden = false
         let stringWithUpdatedShoeSize = "\(integerFromTextField)"
         mensConvertedShoeSizeLabel.text = stringWithUpdatedShoeSize
+        mensShoeSizeTextField.resignFirstResponder()
     }
 
 }
